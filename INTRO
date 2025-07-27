@@ -1,0 +1,54 @@
+THREAT LANDSCAPE
+  the dynamic landscape of currently emerging cyber threats and vulnerabilities that pose a risk to entities in the industry
+WINDOWS VERSIONS
+  ---Windows NT 4
+  ---Windows 2000
+  ---Windows XP
+  ---Windows Server 2003
+  ---WIndows Vista, Server 2008
+  ---Windows 7, Server 2008 R2
+  ---Windnows 8, Server 2012
+  ---Windows 8.1 ,Server 2012 R2
+  ---Windows 10, Server 2016, Seerver 2019
++Enumeration in powershell - Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber
+Classes under Get-WmiObject
+  Win32_MemoryDevice
+  Win32_PhysicalMemory
+  Win32_Service
+  Win32_Bios
+  Win32_Process
+#not all of them...jsut the ones i know
+
+WIndows can be accessed locally or remotely
+
+REMOTE ACCESS CONCEPTS
+--over a network
+Things you should know- Managed Service Provider(MSPs) and Managed Security Service Provider(MSSPs) aka The Ms
+WHY the Ms use remote access;
+1.Easier incident respose
+2.Standardadized tech usage
+3.AUtomated tasks
+4.Remote work arrangements
+
+Common tech used 
+  SSH
+  RDP
+  FTP
+  Windows Remote management
+  VPN
+  Virtual Networking COmputing
+
+REMOTE DESKTOP PROTOCOL(RDP)
+ listens by default on port 3389
+  Uses a client server architecture
+
+  Windows-to-Windows 
+  --target pc should allow remote desktop connection
+  --we use e remote desktop connection tool
+  Linux-to-Windows
+  --we use xfreerdp
+  xfreerdp /v:target ip /u:username /p:pass
+
+
+
+  
