@@ -1,0 +1,13 @@
+service.msc- Gui for service management
+Powershell
+  Get-Service | ? {$_.Status -eq "Running"} | select -First 2 |fl
+  -Gets running services
+
+lsass.exe- Security policy enforcement
+
+CMD
+sc qc - query the service
+sc sdshow <service name> - examine process perms
+
+PWSH
+Get-ACL
