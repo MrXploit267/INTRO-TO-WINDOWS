@@ -11,3 +11,11 @@ sc sdshow <service name> - examine process perms
 
 PWSH
 Get-ACL
+
+wmic- system monitorinh
+mmc - make a collection of tools
+
+security identifier
+how to get it 
+1. whoami /user -gets sid for current user
+2. wmic useraccount get user,sid - all users present
