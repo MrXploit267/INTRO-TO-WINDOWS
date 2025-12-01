@@ -1,0 +1,8 @@
+create a folder
+make it shared
+spin up cmd - net user <username> <password>  /add
+            0r - net user <user> <pass> /add && net localgroup administrators <user> /add, to also add to groups
+
+howd i find files on cmd?
+ dir C:\*filename*  /s
+
